@@ -1,0 +1,51 @@
+img {
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+}
+img:hover {
+  height: 250px;
+  width: 500px;
+  transition: 1s all;
+}
+#main {
+  background-color: beige;
+  font-family: cinzel, serif;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  overflow: auto;
+}
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  background-color: rgb(252, 174, 80);
+  font-family: lato, sans-serif;
+  padding: 25px;
+  position: sticky;
+  top: 0px;
+}
+.post {
+  border: 2px solid black;
+  padding: 10px;
+}
+.post > a {
+  text-decoration: none;
+}
+.post > a:hover {
+  color: aquamarine;
+  transition: 1s color;
+}
+.post h2 {
+  text-align: center;
+}
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#image-1 {
+  float: right;
+  margin: 15px;
+  border-radius: 15px;
+}
