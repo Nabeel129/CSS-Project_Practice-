@@ -13,7 +13,6 @@ img:hover {
   font-family: cinzel, serif;
   display: grid;
   grid-template-columns: 70% 30%;
-  overflow: auto;
 }
 .sidebar {
   display: flex;
